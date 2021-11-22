@@ -38,4 +38,48 @@ else if (playerInput == '3'){
   playerMove = 'nozyce'
 }
 
-printMessage('Twój ruch to: ' + playerMove);
+
+printMessage('Twoj ruch: ' + playerMove);
+
+
+
+if( computerMove == 'kamień' && playerMove == 'papier'){
+  printMessage('Ty wygrywasz!');
+}
+else if( computerMove == 'kamień' && playerMove == 'nozyce'){
+  printMessage('computer wygrywa');
+}
+
+else if ( computerMove == 'kamień' && playerMove == 'kamień'){
+  printMessage('remis')
+
+}
+
+else if (computerMove == 'papier' && playerMove == 'nozyce'){
+  printMessage('Ty wygrywasz');
+
+}
+
+else if (computerMove == 'papier' && playerMove == 'papier'){
+  printMessage('remis');
+}
+
+else if (computerMove == 'papier' && playerMove == 'nozyce'){
+  printMessage('Ty wygrywasz!');
+}
+
+else if (computerMove == 'papier' && playerMove == 'kamień') {
+  printMessage('computer wygrywa')
+}
+
+else if (computerMove == 'nozyce' && playerMove == 'nozyce') {
+  printMessage('remis');
+}
+
+else if (computerMove == 'nozyce' && playerMove == 'papier') {
+  printMessage('computer wygrywa');
+}
+
+else if (computerMove == 'nozyce' && playerMove == 'kamień') {
+  printMessage('Ty wygrywasz');
+}
