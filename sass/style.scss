@@ -4,6 +4,8 @@
         box-sizing: border-box;
 }
 
+$font-text: 'Press Start 2P', cursive;
+$text-color: #f5cd79;
 
 html {
   height: 100%;
@@ -68,4 +70,22 @@ body {
     color: #4CAF50;
   }
 
+}
+
+
+.header-title {
+  font-family: $font-text;
+  color: $text-color;
+}
+
+
+aside {
+  position: absolute;
+  display: flex;
+  width: 26%;
+  height: 95%;
+  left: 67px;
+  display: block;
+  font-family: $font-text;
+  color: $text-color;
 }

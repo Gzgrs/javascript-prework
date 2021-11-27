@@ -10,8 +10,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 </head>
 <body>
-
 	<div class="container">
+		<h1 class="header-title">Mini gra</h1>
+		<h2 class="header-title">Kamień, papier, nozyce.</h2>
 		<div id="buttons">
 			<button id="rock"><i class="far fa-hand-rock"></i></button>
 			<button id="paper"><i class="far fa-hand-paper"></i></i></button>
@@ -19,8 +20,17 @@
 		</div>
 		<div id="messages" style="font-size: 20px;font-family: 'Press Start 2P', cursive;line-height: 2.5;padding-top: 16px;color: #f5cd79;"></div>
 	</div>
+
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
+	<aside>
+		<p>Wynik rundy może być następujący:</p>
+		<ul>
+			<li>remis – jeśli obaj gracze wybrali ten sam ruch,</li>
+			<li>wygrana gracza, który zagrał papier, jeśli drugi gracz zagrał kamień,</li>
+			<li>wygrana gracza, który zagrał kamień, jeśli drugi gracz zagrał nożyce,</li>
+			<li>wygrana gracza, który zagrał nożyce, jeśli drugi gracz zagrał papier.</li>
+		</ul>
+	</aside>
 </body>
-
 </html>
