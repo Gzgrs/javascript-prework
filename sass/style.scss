@@ -40,12 +40,15 @@ body {
   width: 69%;
   height: 30%;
   display: inline-grid;
+
   #rock {
     background-color: #f7f1e3;
     border: 3px solid #4CAF50;
     border-radius: 30px;
     margin: 4px;
     cursor: pointer;
+    font-size: 0;
+
 
   }
 
@@ -55,6 +58,7 @@ body {
     border-radius: 30px;
     margin: 4px;
     cursor: pointer;
+    font-size: 0;
   }
 
   #scissors {
@@ -63,6 +67,7 @@ body {
     border-radius: 30px;
     margin: 4px;
     cursor: pointer;
+    font-size: 0;
   }
 
   i {
