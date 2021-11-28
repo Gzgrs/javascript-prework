@@ -79,11 +79,11 @@ function displayResult(argComputerMove, argPlayerMove){
 
 
 
-let randomNumber = Math.floor(Math.random() * 3 + 1);
+const randomNumber = Math.floor(Math.random() * 3 + 1);
 
 console.log('Wylosowana liczba to: ' + randomNumber);
 
-let computerMove = getMoveName(randomNumber);
+const computerMove = getMoveName(randomNumber);
 
 
 
@@ -94,7 +94,7 @@ printMessage('Ruch computera to: ' + computerMove);
 
 console.log('Gracz wpisał: ' + playerInput);
 
-let playerMove = getMoveName(playerInput);
+const playerMove = getMoveName(playerInput);
 
 
 printMessage('Ruch gracza to: ' + playerMove);
